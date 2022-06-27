@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <title>SPA SDK Sample</title>
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -36,23 +39,14 @@
       <div class="nav-container">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
           <div class="container">
-            <div class="navbar-brand logo"></div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
+             <div id="iconimg">
+                <img src="img/pizza.png" alt="テキストテキストテキスト">       
+            </div>      
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a href="/" class="nav-link route-link">Home</a>
+                  <a href="/" class="nav-link route-link">Pizza 42 / Home</a>
                 </li>
               </ul>
               <ul class="navbar-nav d-none d-md-block">
@@ -160,8 +154,12 @@
           </div>
         </nav>
       </div>
-
-      <div id="main-content" class="container mt-5 flex-grow-1">
+        <main>
+            <div id="mainvisual">
+            <img src="img/pizzatop.jpg" alt="テキストテキストテキスト">             
+           </div>
+        </main>
+              <div id="main-content" class="container mt-5 flex-grow-1">
         <div id="content-home" class="page">
           <div class="text-center hero">
             <img
@@ -280,6 +278,8 @@
         </p>
       </footer>
     </div>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
